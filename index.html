@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Segunda entrega</title>
+</head>
+<body>
+<!--NAVBAR BOOTSTRAP-->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"> <img src="imagenes/logotipo mercado libre (1).png" alt=""></a>
+   
+<!-- BOTON MENU COLAPSABLE-->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<!--ELEMENTOS DEL MENU COLAPSABLE-->
+
+    <div class="collapse navbar-collapse navbar-custom" id="menu">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Categorias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Vehiculos</a></li>
+              <li><a class="dropdown-item" href="#">Inmuebles</a></li>
+              <li><a class="dropdown-item" href="#">Supermercado</a></li>
+            </ul>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Ofertas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Historial</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Supermercado</a>
+        </li> 
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Moda</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Vender</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="pages/help.html">Ayuda</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar productos, marcas y más...">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+      <div  class="collapse navbar-collapsenavbar-custom" id="menu">
+        <ul class="navbar-nav ms-auto" >
+          <li class="nav-item">
+            <a class="nav-link active" href="pages/new-count.html">Creá tu cuenta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="pages/login.html">Ingresá</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="pages/login.html">Mi cuenta</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<!----------------------CARRUSEL------------------------->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active"data-bs-interval="4000">
+        <img src="imagenes/ofertas5.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="imagenes/ofertas2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="imagenes/ofertas4.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!------------SECTION OFERTAS--------------->
+<section class="recomendaciones">
+  <div class="row-container">
+
+    <div class="section-header">
+      <h2>Ofertas</h2>
+      <a href="#">Ver todas</a>
+    </div>
+
+    <div class="card-group">
+      <div class="card">
+        <a href="" class="card-link">
+          <img src="imagenes/celu.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$23.800</h5>
+            <p class="card-text">Celular TCL 305i</p>
+            <p class="card-text"><small class="text-muted">Envio gratis</small></p>       
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="" class="card-link">
+          <img src="imagenes/zapatilla.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$7.800</h5>
+            <p class="card-text">Zapatillas tipo Converse con plataforma</p>
+            <p class="card-text"><small class="text-muted">Envio Gratis</small></p>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="" class="card-link">
+          <img src="imagenes/tele.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$78.900</h5>
+            <p class="card-text">Televisor LED Sony 50 pulgadas 4K</p>
+            <p class="card-text"><small class="text-muted">Envio Gratis</small></p>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="" class="card-link">
+          <img src="imagenes/taladro.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$35.590</h5>
+            <p class="card-text">Kit Taladro completo con valija de regalo!</p>
+            <p class="card-text"><small class="text-muted">Envio Gratis</small></p>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="" class="card-link">
+          <img src="imagenes/notebook.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$180.000</h5>
+            <p class="card-text">Notebook Lenovo Intel i7 Pantalla 15 Pulgadas</p>
+            <p class="card-text"><small class="text-muted">Envio Gratis</small></p>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+   </div>
+
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

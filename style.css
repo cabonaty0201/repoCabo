@@ -1,0 +1,243 @@
+
+body{
+    background-color: #e6e6e6;
+}
+nav{
+    background-color: #f8ed55;
+    height: 100px;
+}
+.navbar-custom {
+  position: relative; /* Asegura que la clase navbar-custom tenga una posición relativa */
+  z-index: 9999; /* Establece un valor alto para el z-index */
+}
+
+@media (max-width: 768px) {
+  .navbar-custom {
+    background-color: #b9b6b6; /* color gris */
+  }
+}
+
+section{
+    display: block;
+}
+
+.section-header{
+    flex-direction: row;
+    margin-bottom: 22px;
+}
+.section-header h2+a {
+    margin-left: 16px;
+}
+.section-header a {
+    font-size: 16px;
+   margin: auto 0 2px
+}
+
+.card-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/*
+/*---------- FORMULARIO REGISTRO -----------*/
+
+/* Estilos para el formulario de registro de MercadoLibre */
+.form-group {
+    margin-bottom: 1rem;
+  }
+  .form-group label {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .form-control:focus {
+    border-color: #171bf1;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(16, 55, 182, 0.25);
+  }
+  .form-check-input {
+    position: static;
+    margin-top: 0.25rem;
+    margin-right: 0.5rem;
+    margin-left: 0;
+  }
+  .form-check-label {
+    margin-bottom: 0;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #171bf1;
+    border-color: #171bf1;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #050e85;
+    border-color: #050e85;
+  }
+  #form-login{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#form-login h1{
+    background-color: #ffffff;
+    margin-bottom: 14px;
+}
+#form-login h5{
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
+/*---------------help.html-----------*/
+.flex-container-ayuda{
+    display: flex;
+}
+
+.menu-horizontal-ayuda{
+    list-style: none;
+    display: flex;
+
+}
+.menu-horizontal-ayuda li a{
+    display: block;
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+    padding: 10px 16px;
+    
+
+}
+.menu-horizontal-ayuda li a:hover{
+    color: #000000;
+}
+
+
+
+/*------------FOOTER--------------*/
+.nav-footer-navigation{
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    margin: 20px;
+}
+.nav-footer-navigation ul li{
+    display: inline-block;
+    text-decoration: none;
+
+}
+.nav-footer-navigation__item a{
+    text-decoration: none;
+}
+.nav-footer-navigation small{
+    margin: 10px;
+}
+.nav-footer-login{
+    background-color: #f8f5f5;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    margin-top: 90px;
+    text-align: center;
+    position: relative;
+}
+.nav-footer-login ul li{
+    text-decoration: none;
+    display: inline;
+
+}
+.nav-footer-login li a{
+    text-decoration: none;
+    color: #414040;
+    padding: 20px;
+
+}
+.nav-footer-login li a:hover{
+    color: #000000;
+}
+
+
+/* Estilos para el formulario de registro de MercadoLibre */
+.form-group {
+    margin-bottom: 1rem;
+  }
+  .form-group label {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .form-control:focus {
+    border-color: #171bf1;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(16, 55, 182, 0.25);
+  }
+  .form-check-input {
+    position: static;
+    margin-top: 0.25rem;
+    margin-right: 0.5rem;
+    margin-left: 0;
+  }
+  .form-check-label {
+    margin-bottom: 0;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #171bf1;
+    border-color: #171bf1;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #050e85;
+    border-color: #050e85;
+  }
+  #form-login{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#form-login h1{
+    background-color: #ffffff;
+    margin-bottom: 14px;
+}
+#form-login h5{
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}

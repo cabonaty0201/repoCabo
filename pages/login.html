@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Ingresa a tu cuenta</title>
+</head>
+<body id="login">
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"> <img src="../imagenes/logotipo mercado libre (1).png" alt=""></a>
+        </div>
+    </nav>
+<!--
+    <section class="form-register-login">
+        <h1>Ingresá tu email o usuario de Mercado Libre</h1>
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su mail / Usuario">
+        <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+       <input class="botons" type="submit" value="Ingresar">
+       <a href="new-count.html"><input class="botons" type="submit" value="Crear cuenta"></a>
+
+        <p><a href="#">Me olvide la contraseña</a></p>
+    </section>
+-->
+
+<form id="form-login">
+    <h1>Ingresá tu email o usuario de Mercado Libre</h1>
+    <div class="form-group">
+      <label for="usuario">Usuario</label>
+      <input type="text" class="form-control" id="usuario" name="usuario">
+    </div>
+    <div class="form-group">
+      <label for="contrasena">Contraseña</label>
+      <input type="password" class="form-control" id="contrasena" name="contrasena">
+    </div>
+    <button type="submit" class="btn btn-primary">Ingresar</button>
+    <p><a href="#">Me olvide la contraseña</a></p>
+
+  </form>
+  
+
+    <footer>
+        <nav class="nav-footer-login">
+            <ul>
+                <li><a href="#">Privacidad</a></li>
+                <li><a href="#">Condiciones</a></li>
+                <li><a href="#">Como cuidamos tu Privacidad</a></li>
+            </ul>
+            <small>Copyright 1999-2023 MercadoLibre S.R.L</small>
+            <small>Protegido por reCAPTCHA</small>
+        </nav>
+    </footer>
+</body>
+</html>
